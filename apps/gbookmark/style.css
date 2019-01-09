@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 16px;
+}
+
+.logo p {
+    margin:  0;
+}
+
+@media(max-width: 768px){
+    .body,
+    .logo,
+    .playlink {
+        text-align: center;
+    }
+}
